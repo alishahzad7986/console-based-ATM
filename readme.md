@@ -4,7 +4,7 @@
 
 A simple **console-based ATM Machine project** built using Python.
 This project simulates basic ATM functionalities like checking balance,<br>
-depositing money, withdrawing money, and exiting the system.
+depositing money, withdrawing money, and exiting the system.<br>
 
 It is a beginner-friendly Python project that demonstrates the use of:
 
