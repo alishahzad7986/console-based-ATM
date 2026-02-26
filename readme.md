@@ -1,47 +1,40 @@
----
-
-# 🏧 ATM Machine Simulation (Python)
-
-A simple **console-based ATM Machine project** built using Python.
-This project simulates basic ATM functionalities like checking balance,<br>
-depositing money, withdrawing money, and exiting the system,       <br>
-
-It is a beginner-friendly Python project that demonstrates the use of:
-
-* Functions
-* Loops
-* Conditional statements
-* Variables
-* Basic input/output handling
 
 ---
 
-## 🚀 Features
+# 🏧 Console-Based ATM System (Python)
+
+A simple and beginner-friendly **Console-Based ATM Simulation** built using Python. This project allows users to securely log in using a PIN and perform basic banking operations such as checking balance, depositing money, and withdrawing funds through a command-line interface.
+
+This project is ideal for beginners who want to practice Python fundamentals and build real-world logic.
+
+---
+
+## 📌 Features
 
 * 🔐 Secure PIN verification
 * 💰 Check account balance
 * ➕ Deposit money
 * ➖ Withdraw money
-* ❌ Exit option
-* 🧮 Balance updates after every transaction
 * ⚠️ Insufficient balance handling
+* 🔄 Balance updates after each transaction
+* ❌ Exit option
 
 ---
 
-## 🛠 Technologies Used
+## 🛠️ Technologies Used
 
-* **Python 3**
-
-No external libraries are required.
+* Python 3
+* No external libraries required
 
 ---
 
 ## 📂 Project Structure
 
 ```
-atm-machine/
+console-based-ATM/
 │
-├── atm.py
+├── main.py
+├── .gitignore
 └── README.md
 ```
 
@@ -49,73 +42,74 @@ atm-machine/
 
 ## ▶️ How to Run the Project
 
-1. Make sure Python is installed on your system.
-2. Clone this repository:
+### 1️⃣ Clone the repository
 
 ```
-git clone https://github.com/your-username/your-repository-name.git
+git clone https://github.com/alishahzad7986/console-based-ATM.git
 ```
 
-3. Navigate to the project folder:
+### 2️⃣ Navigate into the project folder
 
 ```
-cd atm-machine
+cd console-based-ATM
 ```
 
-4. Run the program:
+### 3️⃣ Run the program
 
 ```
-python atm.py
+python main.py
 ```
 
 ---
 
-## 🧠 How It Works
+## ⚙️ How It Works
 
-1. User enters a PIN.
-2. If the PIN is correct, the ATM menu is displayed.
-3. User can choose:
+1. User enters the correct PIN
+2. ATM menu is displayed
+3. User selects one of the options:
 
    * Check Balance
    * Deposit Money
    * Withdraw Money
    * Exit
-4. The system updates and displays the balance accordingly.
+4. Balance is updated automatically after each transaction
 
 ---
 
-## 📌 Learning Objectives
+## 🎯 Learning Objectives
 
-This project helps beginners understand:
+This project helps you learn:
 
-* Python control flow
-* While loops
-* If-else conditions
+* Python basics
+* Functions
+* Loops (while loop)
+* Conditional statements (if-else)
 * User input handling
-* Basic financial logic
-* Program structure
+* Program logic and flow control
+* Real-world simulation using Python
 
 ---
 
-## 🔮 Future Improvements
+## 💡 Future Improvements
 
-* Add multiple user accounts
-* Add transaction history
-* Add file handling for data storage
-* Implement OOP (Object-Oriented Programming)
-* Add GUI version using Tkinter
+* Multiple user accounts support
+* Transaction history
+* Data storage using files or database
+* Object-Oriented Programming (OOP) version
+* GUI version using Tkinter
 
 ---
 
-## 📸 Sample Output
+## 🖥️ Sample Output
 
 ```
 Welcome to Python ATM
+
 Enter your PIN: ****
 
 1. Check Balance
-2. Deposit
-3. Withdraw
+2. Deposit Money
+3. Withdraw Money
 4. Exit
 
 Enter your choice:
@@ -125,14 +119,27 @@ Enter your choice:
 
 ## 🤝 Contributing
 
-Feel free to fork this repository and improve it. Pull requests are welcome!
+Contributions are welcome!
+
+If you'd like to improve this project:
+
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Submit a pull request
 
 ---
-### Author
-ALi Shahzad
-## 📄 License
 
-This project is open-source and available for learning purposes.
+## 👨‍💻 Author
+
+**Ali Shahzad**
+GitHub: [https://github.com/alishahzad7986](https://github.com/alishahzad7986)
+
+---
+
+## 📜 License
+
+This project is open-source and available for learning and educational purposes.
 
 ---
 
